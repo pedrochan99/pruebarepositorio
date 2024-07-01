@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pruebarepositorio/static/css/main.1174cadd.css",
+    "main.js": "/pruebarepositorio/static/js/main.8f92b3c2.js",
+    "index.html": "/pruebarepositorio/index.html",
+    "static/media/delete.svg": "/pruebarepositorio/static/media/delete.7018c4465589031bd51c8efbe21df9ca.svg",
+    "static/media/check.svg": "/pruebarepositorio/static/media/check.e9a948bba52a34123d2ed7aeda0ea495.svg",
+    "main.1174cadd.css.map": "/pruebarepositorio/static/css/main.1174cadd.css.map",
+    "main.8f92b3c2.js.map": "/pruebarepositorio/static/js/main.8f92b3c2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1174cadd.css",
+    "static/js/main.8f92b3c2.js"
+  ]
+}
