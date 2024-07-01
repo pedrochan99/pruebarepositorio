@@ -1,0 +1,55 @@
+.liTasks{
+    background-color: #fff;
+    margin: 20px 0;
+    width: 280px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px 0px #2E2E2E;
+}
+.checkTasks{
+    display: inline-block;
+    width: 10%;
+    font-size: 30px;
+    font-weight: bold;
+    transition: transform .3s; /*Este estilo sirve para las animaciones */
+    cursor: pointer;
+    /* font-size: 15px; */
+    width: 20px;
+    height: 20px;
+}
+/* .checkTasks:hover{
+    transform: rotate(45deg);
+} */
+.descTasks{
+    display: inline-block;
+    width: 80%;
+    font-size: 15px;
+    transition: transform .2s;
+}
+.descTasks:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+}
+/*Para afectar a otro elemento se pone ~*/
+/* .descTasks:hover ~ .liTasks{ */
+.eliTasks{
+    display: inline-block;
+    width: 10%;
+    font-size: 25px;
+    font-weight: bold;
+    transition: transform .3s;
+    cursor: pointer;
+    width: 17px;
+    height: 17px;
+}
+/* Se le asigna el valor al hijo */
+.eliTasks:hover .idenSVG{
+    fill: red;
+}
+
+.textCompletado{
+    text-decoration: line-through;
+}
+.textinCompletado{
+    text-decoration: none;
+}

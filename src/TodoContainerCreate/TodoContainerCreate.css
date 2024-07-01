@@ -1,0 +1,100 @@
+
+.frmCreate{
+    background-color: #FAFAFA;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px 0px #2E2E2E;
+    padding: 20px 50px; 
+    color: #DF013A;
+}
+
+.frmCreateTitulo{
+    padding: 0px;
+    margin: 0px;
+    font-size: 27px;
+}
+.frmCreateSubTitulo{
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.frmCreateInput{
+    margin: auto;
+    margin-top: 2px;
+    display: block;
+    font-size: 13px;
+    padding: 8px 11px;
+    border: 1.3px solid #8A0829;
+    /* border-radius: 5px; */
+    color: #8A0829;
+    box-shadow: 0px 0px 10px 0px #BDBDBD;
+}
+.frmCreateText{
+    margin: auto;
+    margin-top: 2px;
+    display: block;
+    width: 200px;
+    height: 60px;
+    font-size: 13px;
+    padding: 8px 11px;
+    border: 1.3px solid #8A0829;
+    color: #8A0829;
+    resize: none;/*Para que no se reaujuste el textarea*/
+    box-shadow: 0px 0px 10px 0px #BDBDBD;
+}
+.frmCreateButton{
+    background-color: #DF013A;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+}
+/* El hover equivale al blur en js */
+.frmCreateButton:hover{
+    background-color: #8A0829;
+    cursor: pointer;
+}
+
+/* Los media sirven para las medidas de 
+pantalla de diferentes dispositivos, con 
+esto, podemos cambiar estilos dependiendo 
+del tamaño que tengan */
+/*Dispositivos más grandes*/
+@media (max-width: 4000px){
+    .containerCreate{
+        width: 50%;
+        padding: 0px;
+        display: table-cell;
+        text-align: center;
+        /* height: 100vh; */
+        vertical-align: middle;
+        /* position: relative; */
+    }
+    .frmCreate{
+        /* position: absolute; */
+        /* top: 50%; */
+        /* left: 30%; */
+        display: inline-block;
+        /* margin: -15% 0 0 0; */
+    }
+}
+/*Dispositivos pequeños*/
+@media (max-width: 600px){
+    .containerCreate{
+        width: 100%;
+        /* padding: 0px; */
+        display: block;
+        text-align: center;
+        /* height: auto; */
+        /* position: initial; */
+    }
+    .frmCreate{
+        /* position: initial; */
+        /* top: 50%; */
+        /* left: 22%; */
+        display: inline-block;
+        margin: 20px 0;
+    }
+}

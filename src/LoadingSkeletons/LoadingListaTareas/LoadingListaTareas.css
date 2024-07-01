@@ -1,0 +1,96 @@
+.contentLoad{
+    text-align: center;
+    display: block;
+    /* margin: auto;
+    padding: 20px; */
+    background-color: #F7819F;
+    margin: 20px 0;
+    width: 280px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    animation: cargaContentTarea 3s ease-in-out infinite;
+    /* box-shadow: 0px 0px 12px 0px #2E2E2E; */
+}
+
+.completeLoad{
+    display: inline-block;
+    width: 10%;
+    font-size: 30px;
+    font-weight: bold;
+    transition: transform .3s; /*Este estilo sirve para las animaciones */
+    /* cursor: pointer; */
+    /* font-size: 15px; */
+    width: 20px;
+    height: 20px;
+}
+
+.descripLoad{
+    display: inline-block;
+    width: 80%;
+    font-size: 15px;
+    transition: transform .2s;
+}
+
+.elimLoad{
+    display: inline-block;
+    width: 10%;
+    font-size: 25px;
+    font-weight: bold;
+    transition: transform .3s;
+    /* cursor: pointer; */
+    width: 17px;
+    height: 17px;
+}
+
+.completeLoad .idenSVG{
+    fill: #F7819F;
+    animation: cargaIconsTarea 3s ease-in-out infinite;
+    border-radius: 50%;
+}
+.elimLoad .idenSVG{
+    fill: #F7819F;
+    animation: cargaIconsTarea 3s ease-in-out infinite;
+    border-radius: 50%;
+}
+
+@keyframes cargaContentTarea {
+    0%{
+       background-color: #FA5882; 
+    }
+    25%{
+        background-color: #F7819F; 
+    }
+    50%{
+       background-color: #FA5882; 
+    }
+    75%{
+        background-color: #F7819F; 
+    }
+    100%{
+       background-color: #FA5882; 
+    }
+}
+
+@keyframes cargaIconsTarea {
+    0%{
+       fill: #F7819F; 
+       /* background-color: #F7819F;  */
+    }
+    25%{
+        fill: #FA5882; 
+        /* background-color: #FA5882;  */
+    }
+    50%{
+       fill: #F7819F; 
+       /* background-color: #F7819F;  */
+    }
+    75%{
+        fill: #FA5882; 
+        /* background-color: #FA5882;  */
+    }
+    100%{
+       fill: #F7819F; 
+       /* background-color: #F7819F;  */
+    }
+}

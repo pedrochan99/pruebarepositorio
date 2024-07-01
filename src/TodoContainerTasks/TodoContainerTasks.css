@@ -1,0 +1,72 @@
+/* Se pueden agregar variables por ejemplo: 
+:root{
+    --colorbase: #fff;
+}
+
+y para llamarlo:
+
+var(--colorbase)
+*/
+
+/*
+Para utilizar animaciones:
+transition: transform .3s;
+transform: translateY(100px);
+
+el before y el after, sirven para crear elementos 
+como por ejemplo un rectangulo para luego manipularlo
+pero esto se crea dentro de la clase. Se le debe agregar
+un content para que funcione
+.classNaame::before{
+content: "";
+para su hover sería: .className:hover::before
+}
+
+
+Para hacer animaciones se pne la propiedad animation, 
+dentro ded esta se debe agregar el keyframe que creamos.
+ejemplo: animation: keyframeCrea 30s infinite; animation-timing-function: lienar;
+@keyframes keyframeCrea {
+0%{margin-left:0;}
+12%{margin-left:0;}
+
+17%{margin-left:-100%}
+29%{margin-left:-100%}
+}
+*/
+
+.containerTasks{
+    text-align: center;
+    display: table-cell;
+}
+.frmTasks{
+    display: inline-block;
+    margin: auto;
+    padding: 20px;
+}
+.frmTasksInput{
+    padding: 9px 16px;
+    border-radius: 10px;
+    font-size: 17px;
+    border: 1px solid #848484;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 20px 0px #585858;
+}
+
+/*Dispositivos más grandes*/
+@media (max-width: 4000px){
+    .containerTasks{
+        width: 50%;
+        padding: 0px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+}
+/*Dispositivos pequeños*/
+@media (max-width: 600px){
+    .containerTasks{
+        width: 100%;
+        padding: 0px;
+        display: block;
+    }
+}

@@ -1,0 +1,16 @@
+.ModalBackground{
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    /* background-color: #000; */
+    display: flex; /*Se añade flex para poder centrar cosas verticalmente*/
+    justify-content: center; /*Se añade justificado del texto*/
+    align-items: center; /*Se centra verticalmente el texto*/
+    top: 0; /*Se centra al poner que todos los lados sea 0*/
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed; /*Se pone el fixen para que aunque baje la ventana siga estando fijo*/
+    /*opacity: 60%; Se le da transparencia al fondo, pero con esto opaca todo hasta lo que está dentro*/
+    background: rgba(0, 0, 0, .6); /*otra forma es agregandole transparencia desde el fondo, así no afecta el conenido*/
+}

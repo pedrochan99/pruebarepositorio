@@ -1,0 +1,17 @@
+.ContenedorTitulo {
+    text-align: center; 
+    font-size: 60px;
+    padding: 0px;
+    margin: 10px 0px 4px 0px;
+    color: #fff;
+    font-weight: 490;
+}
+.ContenedorSubtitulo{
+    text-align: center;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 20px;
+    font-weight: 450;
+    color: #fff;
+}
